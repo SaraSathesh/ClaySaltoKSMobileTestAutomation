@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T18:37:45 IST" name="Clay-SaltoKS Mobile Test Automation Suite " finished-at="2023-05-22T18:39:32 IST" duration-ms="106732">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T18:37:45 IST" name="Regression" finished-at="2023-05-22T18:39:32 IST" duration-ms="106732">
+      <class name="com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:37:45 IST" name="setUpReport" finished-at="2023-05-22T18:37:45 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:37:45 IST" name="loginTest" data-provider="appLogin" finished-at="2023-05-22T18:38:23 IST" duration-ms="37371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ts@my-clay.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456Ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Completion(org.testng.ITestResult)[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:38:23 IST" name="Completion" finished-at="2023-05-22T18:38:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SaltoKSCreateUser.loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Completion -->
+        <test-method signature="logOut()[pri:3, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:38:23 IST" name="logOut" finished-at="2023-05-22T18:38:40 IST" duration-ms="17157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="Completion(org.testng.ITestResult)[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:38:40 IST" name="Completion" finished-at="2023-05-22T18:38:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=SaltoKSCreateUser.logOut()[pri:3, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Completion -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:38:40 IST" name="Teardown" finished-at="2023-05-22T18:38:41 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser@7dfd3c81]" started-at="2023-05-22T18:39:32 IST" name="closeReport" finished-at="2023-05-22T18:39:32 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- com.clay.mobile.testautomation.testsuite.SaltoKSCreateUser -->
+      <class name="com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:38:41 IST" name="loginTest" data-provider="appLogin" finished-at="2023-05-22T18:39:03 IST" duration-ms="22823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ts@my-clay.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456Ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Completion(org.testng.ITestResult)[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:03 IST" name="Completion" finished-at="2023-05-22T18:39:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SaltoKSLockEnableEOM.loginTest(java.lang.String, java.lang.String)[pri:1, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Completion -->
+        <test-method signature="enableLockEOM()[pri:2, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:03 IST" name="enableLockEOM" finished-at="2023-05-22T18:39:15 IST" duration-ms="11968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableLockEOM -->
+        <test-method signature="logOut()[pri:3, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:15 IST" name="logOut" finished-at="2023-05-22T18:39:31 IST" duration-ms="15459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="Completion(org.testng.ITestResult)[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:15 IST" name="Completion" finished-at="2023-05-22T18:39:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enableLockEOM status=SUCCESS method=SaltoKSLockEnableEOM.enableLockEOM()[pri:2, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Completion -->
+        <test-method is-config="true" signature="Completion(org.testng.ITestResult)[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:31 IST" name="Completion" finished-at="2023-05-22T18:39:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=SaltoKSLockEnableEOM.logOut()[pri:3, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Completion -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM@2584b82d]" started-at="2023-05-22T18:39:31 IST" name="Teardown" finished-at="2023-05-22T18:39:32 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.clay.mobile.testautomation.testsuite.SaltoKSLockEnableEOM -->
+    </test> <!-- Regression -->
+  </suite> <!-- Clay-SaltoKS Mobile Test Automation Suite  -->
+</testng-results>
